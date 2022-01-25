@@ -5,28 +5,41 @@
     <title>home</title>
   <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.min.js"></script>
+
 </head>
 <body>
-<div class="header">
-    <div>
-        <img src="images/logo1.png">
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="javascript:void(0)"> <img src="images/logo2.png"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mynavbar">
+            <ul class="navbar-nav me-auto">
+                <li class="nav-item">
+                    <a style="color:blue;" class="nav-link" href="javascript:void(0)">PORTFOLIO</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="whoiam.html">WHO I AM</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contacts.html">CONTACTS</a>
+                </li>
+            </ul>
+            <form class="d-flex">
+                <input class="form-control me-2" type="text" placeholder="Search">
+                <button class="btn btn-primary" type="button">Search</button>
+            </form>
+        </div>
     </div>
-    <div class="nav">
-        <a class="active" href="">PORTFOLIO</a>
-        <a href="whoiam.html">WHO IAM</a>
-        <a href="contacts.html">CONTACTS</a>
-    </div>
-    <div class="search">
-        <form>
-            <input type="text" name="search" placeholder="Search...">
-        </form>
-    </div>
-
-</div>
+</nav>
 
 
 
-<section>
+
+<section style="margin-top:85px">
+    <div class="container-fluid">
     <div class="bg">
         <div class="p">
         <p>You need an "out of this world web<br> designer and front-end web developer?"<br>
@@ -88,10 +101,10 @@
             </div>
         </div>
     </section>
-    <section id="recent">
+    <section class="recent">
         <h1><b>My Recent Works</b></h1>
         <p>Here are a few design projects I've worked on recently. Want to see more?<a style="text-decoration-line: none" href = "mailto: walterchelimo123@gmail.com">Email Me</a></p>
-        <div class="flex-container">
+        <div class="flexcontainer">
 
             <div>
                 <a href="">
@@ -99,9 +112,6 @@
                 </a>
                 <h3 class="center"></h3>
 
-            </div>
-
-            <div>
                 <a href="">
                     <img src="images/r2.jpg" width="300" height="250">
                 </a>
@@ -116,13 +126,6 @@
                 </a>
                 <h3 class="center"></h3>
 
-            </div>
-        </div>
-
-
-        <div class="flex-container">
-
-            <div>
                 <a href="https://walterchelimo.github.io/hospitalform/hospital.html">
                     <img src="images/r6.jpg" width="300" height="250">
                 </a>
@@ -136,9 +139,6 @@
                 </a>
                 <h3 class="center"></h3>
 
-            </div>
-
-            <div>
                 <a href="">
                     <img src="images/r8.jpg" width="300" height="250">
                 </a>
@@ -152,7 +152,7 @@
         <a href=""><input class="see-btn" type="button" value="SEE MORE>>>"></a>
     </section>
 
-
+    </div>
 </section>
 <div class="last">
     Its My pleasure if you contact Me after knowing what and how I am doing,<br>

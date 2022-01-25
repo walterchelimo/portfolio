@@ -59,24 +59,27 @@ span{
 }
 .p{
     height:auto;
-    width:50%;
-    float:right;
-    margin-right:60%;
-    margin-top:50px;
+    padding-left:5%;
+    padding-right:5%;
+    float:left;
+    margin-top:auto;
+    margin-bottom: auto;
     text-align: end;
 }
 .p input{
     width:auto;
+    color:white;
 }
 .wr{
     background-color: green;
     mask-border-outset: revert;
     padding-top:5px;
+    padding-bottom:5px;
     margin-left:3px;
     margin-right:3px;
     text-align:center;
     width:99%;
-    height:150px;
+    height:auto;
     font-size:25px;
     padding-top:30px;
 
@@ -101,7 +104,8 @@ span{
 }
 
 .last{
-    height:200px;
+    height:auto;
+    padding-bottom:20px;
     background-color: black;
     text-align: center;
     font-size:30px;
@@ -112,11 +116,14 @@ span{
 }
 .last input{
     width:auto;
-    margin-top:30px;
+    margin-top:auto;
+    margin-bottom:auto;
     background-color: green;
     text-align:center;
     font-size:20px;
     border-radius: 6px;
+    color:white;
+
 
 }
 .footer{
@@ -127,6 +134,7 @@ span{
     padding:30px;
     margin-left:3px;
     margin-right:3px;
+    color:white;
 }
 
 
@@ -179,7 +187,7 @@ span{
     font-family: "Bernard MT Condensed";
 }
 .media{
-    margin-left:100px;
+    margin-left:10%;
     margin-top:40px;
 }
 .media1{
@@ -236,7 +244,7 @@ label{
     padding:12px 12px 12px 0;
 }
 .btnsubmit{
-    width:15%;
+    width:auto;
     float:right;
     padding:8px 8px;
     background-color:blue;
@@ -244,6 +252,7 @@ label{
     border:none;
     border-radius: 5px;
     margin:3px;
+    color:white;
 
 }
 .btnsubmit:hover{
@@ -281,7 +290,7 @@ label{
     width:50%;
     text-align: center;
 }
-#recent{
+.recent{
     width:75%;
     margin-left:auto;
     margin-right:auto;
@@ -290,10 +299,13 @@ label{
     margin-bottom:20px;
 
 }
-.flex-container{
+.flexcontainer{
     display:flex;
+    margin-left:auto;
+    margin-right:auto;
+
 }
-.flex-container div{
+.flexcontainer div{
     margin-left:auto;
     margin-right:auto;
 }
@@ -306,7 +318,9 @@ label{
 .see-btn{
     background-color:white;
     color:blue;
-    width:25%;
+    width:auto;
+    padding-right: 3%;
+    padding-left: 3%;
     border: 2px solid blue;
     border-radius:30px;
     margin-top:30px;
