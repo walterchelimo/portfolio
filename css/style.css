@@ -192,22 +192,8 @@ span{
     font-size:30px;
     font-family: "Bernard MT Condensed";
 }
-.media{
-    margin-left:10%;
-    margin-top:40px;
-}
-.media1{
-    margin-top:40px;
-}
-.media captio{
-    padding-left:10px;
-    font-size:25px;
-    font-family: Cambria;
-}
-.media1 captio{
-    padding-left:10px;
-    font-size:25px;
-    font-family:Cambria;
+.container-fluid captio{
+    text-decoration-line: none;
 }
 .imag{
     padding-top:50px;
@@ -305,22 +291,14 @@ label{
     margin-bottom:20px;
 
 }
-.flexcontainer{
-    display:flex;
-    margin-left:auto;
-    margin-right:auto;
-
+#container captio{
+    font-size:20px;
+    padding-right:2%;
 }
-.flexcontainer div{
-    margin-left:auto;
-    margin-right:auto;
+#container a{
+    text-decoration-line: none;
 }
 
-.flex-container img {
-    border-radius: 6px;
-    margin: 10px;
-
-}
 .see-btn{
     background-color:white;
     color:blue;
