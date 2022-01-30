@@ -54,7 +54,7 @@
     color:black;
 }
 .bg p{
-    font-size:30px;
+    font-size:25px;
     color:white;
 }
 span{
@@ -66,13 +66,7 @@ span{
     font-size:18px;
 }
 .p{
-    height:auto;
-    padding-left:5%;
-    padding-right:5%;
-    float:left;
-    margin-top:auto;
-    margin-bottom: auto;
-    text-align: end;
+    text-align: center;
 }
 .p input{
     width:auto;
@@ -135,14 +129,13 @@ span{
 
 }
 .footer{
-    background-color: green;
-    height:110px;
+    background-color: gray;
+    height:auto;
     text-align: center;
     font-size: 18px;
-    padding:30px;
-    margin-left:3px;
-    margin-right:3px;
+    padding:15px;
     color:white;
+    position: sticky;
 }
 
 
@@ -154,7 +147,6 @@ span{
 }
 .con-2{
     margin-top:10px;
-    margin-left:10px;
     float:right;
 
 }
@@ -166,7 +158,6 @@ span{
     display:flex;
 }
 .con-132{
-    padding-left:10px;
 }
 .con-132 p{
     font-size:15px;
