@@ -42,14 +42,16 @@
 }
 .bg{
     background-image: url("../images/hol4.gif");
-    background-repeat: no-repeat;
-    background-size:cover;
     width:99%;
     height:500px;
     margin-left:3px;
     margin-right:3px;
     padding-top: 50px;
 
+}
+.navbar{
+    background-color: gray;
+    color:black;
 }
 .bg p{
     font-size:30px;
